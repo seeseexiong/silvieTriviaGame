@@ -34,6 +34,17 @@ function decrement() {
     //display time on DOM
     $('#timer-text').text(timer)
 
+    // integer of timer change colors
+    if(timer <= 30) {
+        $('#timer-text').css('color', 'yellow')
+    }
+    if(timer <= 20) {
+        $('#timer-text').css('color', 'orange')
+    }
+    if(timer <= 10) {
+        $('#timer-text').css('color', 'red')
+    }
+
     //when time is up
         //stop the time by running the stop function
         //show only container3

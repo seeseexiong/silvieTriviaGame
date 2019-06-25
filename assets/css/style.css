@@ -24,3 +24,22 @@ body {
 .fadeBox {
     background-color: rgba(255, 255, 255, 0.664);
 }
+
+/* White space on top of list of questions*/
+#formQuestions {
+    padding-top: 70px;
+}
+
+/* timer */
+#timerDiv {
+    position: fixed;
+    width: 20%;
+    left: 50%;
+    text-align: center;
+    background-color: rgb(156, 156, 156);
+    border-radius: 30px;
+}
+
+#timer-text {
+    color: blue;
+}
