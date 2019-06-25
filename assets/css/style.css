@@ -1,17 +1,26 @@
+body {
+    background-image: url(../images/undertale01.png) ;
+    background-size: 60%;
+}
+
 .center-text {
     text-align: center; 
- }
+}
  
- .box-padding{
-     padding-top: 20px;
-     padding-bottom: 20px;
- }
- 
- .box-margin {
-     margin-top: 20px;
-     margin-bottom: 20px;
- }
- 
- .question {
-     font-weight: 800;
- }
+.box-padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box-margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.question {
+    font-weight: 800;
+}
+
+.fadeBox {
+    background-color: rgba(255, 255, 255, 0.664);
+}

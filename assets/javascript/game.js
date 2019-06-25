@@ -1,11 +1,11 @@
 //global variable
 let intervalId
-let timer = 25;
+let timer = 60;
 let score = 0;
 let wrong = 0;
 let unanswered = 0;
-let numbOfQuestions = 4;
-let answers = ['c', 'c', 'a', 'b'];
+let numbOfQuestions = 6;
+let answers = ['a', 'a', 'b', 'c', 'c', 'b'];
 
 //when game start show only container1
 $(document).ready( function() {
@@ -67,6 +67,8 @@ function result() {
     let q2 = document.forms['quiz']['q2'].value;
     let q3 = document.forms['quiz']['q3'].value;
     let q4 = document.forms['quiz']['q4'].value;
+    let q5 = document.forms['quiz']['q5'].value;
+    let q6 = document.forms['quiz']['q6'].value;
 
     //check user's answer - loop through the numbOfQuestions
     for ( let i = 1; i <= numbOfQuestions; i++ ){
