@@ -1,0 +1,17 @@
+.center-text {
+    text-align: center; 
+ }
+ 
+ .box-padding{
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ 
+ .box-margin {
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .question {
+     font-weight: 800;
+ }
