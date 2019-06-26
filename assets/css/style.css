@@ -22,7 +22,7 @@ body {
 }
 
 .fadeBox {
-    background-color: rgba(255, 255, 255, 0.664);
+    background-color: rgba(140, 196, 231, 0.753);
 }
 
 /* White space on top of list of questions*/
@@ -36,10 +36,29 @@ body {
     width: 20%;
     left: 50%;
     text-align: center;
-    background-color: rgb(156, 156, 156);
+    background-color: rgba(235, 91, 91, 0.781);
     border-radius: 30px;
 }
 
 #timer-text {
     color: blue;
+}
+
+.startBTN {
+    border-radius: 20px;
+    background-color: rgb(207, 133, 196);
+    border: solid 3px white;
+}
+
+/* Font style */
+#header1 {
+    color: rgba(255, 255, 255, 0.829);
+}
+.maliFont {
+    font-family: 'Mali', cursive;
+    font-size: 70px;
+    color: white;
+}
+#container3 {
+    font-size: 30px;
 }
